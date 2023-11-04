@@ -9,17 +9,28 @@ I don't really have a solid #dungeon23 but just make more stuff and I think this
 
 ```dataview
 table 
-from "30-Quest-Board/QotW"
+from "30-Quest-Board/QotW/QotW-Prompts"
 sort cdate
 ```
 
 ## Manual Update
 Sig suggested I could track what was the quest and exclude them from the list to keep it from duplication. I will start doing that with W26 since I switched to single objective 
 
-| Week | Quest            |
-| ---- | ---------------- |
-| 26   | Attack Location  |
-| 27   | Persuade Item    |
-| 28   | Destroy Item     |
-| 29   | Deceive Event    |
-| 30   | Deliver Creature |
+| Week | Quest                |
+| ---- | -------------------- |
+| 26   | Attack Location      |
+| 27   | Persuade Item        |
+| 28   | Destroy Item         |
+| 29   | Deceive Event        |
+| 30   | Deliver Creature     |
+| 31   | Spy Creature         |
+| 32   | Persuade Creature    |
+| 33   | Protect Settlement   |
+| 34   | Find Location        |
+| 35   | Build Organization   |
+| 36   | Investigate Creature |
+| 37   | Destroy Building     |
+| 38   | Protect Creature     |
+| 39   | Find Settlement      |
+| 40   | Destroy Organization |
+| 41   | Undermine Settlement |

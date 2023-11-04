@@ -23,7 +23,7 @@ I know you have the big idea of heroes saving the world from certain doom and so
 
 [[Quest-Table]] is my go to table when I want or need some inspiration on what kind of elements to use. It is left vague for you to fill in the details since your world setting would be different from my world.
 
-![[Quest-Table#^dice1]]
+![[Quest-Table#^dice2| clean]]
 
 I will provide some of the examples I have based on the result of the tables I have. Also feel free to expand the table on your own to make it more complicated. Which will be covered in [[Creating Complex Tables]]
 

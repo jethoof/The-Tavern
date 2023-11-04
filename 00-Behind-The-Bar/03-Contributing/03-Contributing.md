@@ -89,7 +89,7 @@ This guide assumes you've used git before. If you haven't, refer to the git cont
 3. Duplicate the `.obsidian` folder inside the vault, and rename it to `.yourGithubUsername`
 4. At the bottom of the `.gitignore` file, add `.yourGithubUsername/` on it's own line.
 5. Open Obsidian, and in Settings → About, set your configuration folder to `.yourGithubUsername`
-6. Go install the plugins listed in the [[README]] (the settings should already be setup from the copied config folder)
+6. Go install the plugins listed in the [[40 TTRPG/44 Systems/Ironsworn/README]] (the settings should already be setup from the copied config folder)
 
 This lets you use your own hotkeys/settings/etc. without accidentally modifying the vault settings.
 

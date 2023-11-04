@@ -26,19 +26,19 @@ type: other
 > [!error] Quest Version 2
 > Here is the quest description and three optional, you could either swap in or add to enrich your quest.
 > 
-> - `dice:[[Quest-Table#^table1]]` `dice:[[Quest-Table#^table2]]`
+> - `dice:[[Quest-Table#^table1]]\|nodice` `dice:[[Quest-Table#^table2]]\|nodice`
 >
 > Optional
-> - `dice:[[Quest-Table#^table1]]` `dice:[[Quest-Table#^table2]]`
-> -  `dice:[[Quest-Table#^table1]]` `dice:[[Quest-Table#^table2]]`
-> - `dice:[[Quest-Table#^table1]]` `dice:[[Quest-Table#^table2]]`
+> - `dice:[[Quest-Table#^table1]]\|nodice` `dice:[[Quest-Table#^table2]]\|nodice`
+> -  `dice:[[Quest-Table#^table1]]\|nodice` `dice:[[Quest-Table#^table2]]\|nodice`
+> - `dice:[[Quest-Table#^table1]]\|nodice` `dice:[[Quest-Table#^table2]]\|nodice`
 > 
 ^dice2
 
 ## Creating a Complex Quest
 You can create a complex quest structure by creating milestones for the quest,
 
-![[QotW2023-19]]
+![[QotW-2023W18]]
 
 # Tables
 
@@ -68,14 +68,179 @@ You can create a complex quest structure by creating milestones for the quest,
 
 | Subject      |
 | ------------ |
-| Building     |
-| Creature     |
-| Event        |
-| Item         |
-| Location     |
-| Organization |
-| Settlement   |
+|  `dice:[[Quest-Table#^building]]\|nodice` Building    |
+|  `dice:[[Quest-Table#^creature-description]]\|nodice` `dice: [[Quest-Table#^creature-type]]\|nodice`    |
+| `dice:[[Quest-Table#^event]]\|nodice`         |
+| `dice:[[Quest-Table#^item-descriptor]]\|nodice` `dice:[[Quest-Table#^item-type]]\|nodice`            |
+| `dice:[[Quest-Table#^locationdescriptor]]\|nodice` `dice:[[Quest-Table#^location]]\|nodice`       |
+| Organization: `dice:[[Quest-Table#^organization]]\|nodice`   |
+| Settlement: `dice:[[Quest-Table#^settlement]]\|nodice`     |
 ^table2
+
+###### Table 2-1 Building 
+
+| Description |
+| ----------- |
+| Fortified   |
+| Ruined      |
+| Abandoned   |
+| Ancient     |
+| Haunted     |
+| Corrupted   |
+| Blessed     |
+| Dangerous   |
+| Isolated    |
+| Unstable    |
+^building
+
+###### Table 2-2-1 Creature 
+| Description |
+| ----------- |
+| Corrupted   |
+| Holy        |
+| Dangerous   |
+| Sick        |
+| Wounded     |
+| Hostile     |
+| Friendly    |
+| Wayward     |
+| Wary        |
+| Young       |
+| Old         |
+^creature-description
+
+###### Table 2-2-2 Creature Type
+
+| Description            |
+| ---------------------- |
+| Humanoid               |
+| Beast                  |
+| Monstrosity            |
+| Undead (Zombie, Ghost) |
+| Construct (Robot)      |
+| Aberrant (Horror)      |
+| Fey                    |
+| Fiend (Devil, Demon)   |
+| Ooze (Slime)           |
+| Celestial (Angel)      |
+| Dragon                 |
+^creature-type
+
+###### Table 2-3 Event 
+| Description         |
+| ------------------- |
+| Ritual              |
+| Celebration / Feast |
+| Funeral             |
+| Wedding             |
+| Meeting             |
+| Parade              |
+| Trial               |
+| Execution           |
+| Ball / Banquet      |
+| Coronation          |
+| Musical / Play      |
+| Concert             |
+| Skirmish            |
+| Invasion            |
+| Blizzard            |
+| Flood               |
+| Fire                |
+| Thunderstorm        |
+^event
+
+###### Table 2-4-1 Item Descriptor
+| Description         |
+| ------------------- |
+| Corrupted           |
+| Blessed             |
+| Relic               |
+| Magical (High Tech) |
+| Treasure            |
+| Memento             |
+| Unstable            |
+| Sentient            |
+^item-descriptor
+
+###### Table 2-4-2 Item Type
+| Description |
+| ----------- |
+| Weapon      |
+| Equipment   |
+| Consumable  |
+| Food        |
+| Tool        |
+| Trinket     |
+^item-type
+
+###### Table 2-5 Location  Descriptor
+| Description |
+| ----------- |
+| Isolated    |
+| Abandoned   |
+| Magical     |
+| Spiritual   |
+| Corrupted   |
+| Blessed     |
+| Fortified   |
+| Dense       |
+| Flat        |
+| Crowded     |
+| Unstable    |
+| Burning     |
+| Frigid            |
+^locationdescriptor
+
+###### Table 2-5 Location  
+| Description  |
+| ------------ |
+| Theatre      |
+| Barrack      |
+| Cemetery     |
+| Palace       |
+| Fortress     |
+| House        |
+| Inn / Tavern |
+| Marketplace  |
+| Mansion      |
+| Forest       |
+| Lake         |
+| Hill         |
+| Mountain     |
+| Mine         |
+| Cavern       |
+| Valley       |
+| Plain        |
+| Desert       |
+| Tundra       |
+| Bog          |
+| River        |
+| Waterfall    |
+| Beach        |
+| Lagoon       |
+| Oasis        |
+^location
+
+###### Table 2-6 Organization 
+| Description |
+| ----------- |
+| Friendly    |
+| Hostile     |
+| Secretive   |
+| Public      |
+| Notorious   |
+| Famous            |
+^organization
+
+###### Table 2-7 Settlement 
+| Description |
+| ----------- |
+| Evil        |
+| Good        |
+| Medium      |
+| Large       |
+| Huge        |
+^settlement
 
 You can pick and choose or if not sure which one, roll d12 and d6 to find out what the contract is 
 
@@ -83,3 +248,6 @@ You can pick and choose or if not sure which one, roll d12 and d6 to find out wh
 
 ### Creature
 I have described more on detail on what kind of creature you can create in [[Tips-on-Creating-Creatures-for-Encounters]]. 
+
+
+`dice:[[Quest-Table^se]]`

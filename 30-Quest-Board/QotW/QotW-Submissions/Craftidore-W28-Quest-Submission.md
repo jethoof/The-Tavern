@@ -1,6 +1,6 @@
 
 > [!summary]
-> - Quest submission for [[QotW-2023W28]].
+> - Quest submission for [[QotW-2023W27]].
 > - Primary Prompt: Destroy Item
 > - Optional secondary Prompts:
 >     - Attack creature

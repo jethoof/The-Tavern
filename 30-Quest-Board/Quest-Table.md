@@ -38,7 +38,6 @@ type: other
 ## Creating a Complex Quest
 You can create a complex quest structure by creating milestones for the quest,
 
-<<<<<<< HEAD
 ![[QotW-2023W18]]
 =======
 ![[QotW-2023W19]]
@@ -72,13 +71,12 @@ You can create a complex quest structure by creating milestones for the quest,
 
 | Subject      |
 | ------------ |
-|  `dice:[[Quest-Table#^building]]\|nodice` Building    |
+| `dice:[[Quest-Table#^locationdescriptor]]\|nodice` `dice:[[Quest-Table#^location]]\|nodice`    |
 |  `dice:[[Quest-Table#^creature-description]]\|nodice` `dice: [[Quest-Table#^creature-type]]\|nodice`    |
 | `dice:[[Quest-Table#^event]]\|nodice`         |
 | `dice:[[Quest-Table#^item-descriptor]]\|nodice` `dice:[[Quest-Table#^item-type]]\|nodice`            |
-| `dice:[[Quest-Table#^locationdescriptor]]\|nodice` `dice:[[Quest-Table#^location]]\|nodice`       |
-| Organization: `dice:[[Quest-Table#^organization]]\|nodice`   |
-| Settlement: `dice:[[Quest-Table#^settlement]]\|nodice`     |
+| `dice:[[Quest-Table#^organization]]\|nodice` `dice:[[Quest-Table#^orgtype]]\|nodice`    |
+| `dice:[[Quest-Table#^settlementdescriptor]]\|nodice` `dice:[[Quest-Table#^settlement]]\|nodice`     |
 ^table2
 
 ###### Table 2-1 Building 
@@ -160,21 +158,24 @@ You can create a complex quest structure by creating milestones for the quest,
 | Blessed             |
 | Relic               |
 | Magical (High Tech) |
-| Treasure            |
 | Memento             |
 | Unstable            |
 | Sentient            |
 ^item-descriptor
 
 ###### Table 2-4-2 Item Type
-| Description |
-| ----------- |
-| Weapon      |
-| Equipment   |
-| Consumable  |
-| Food        |
-| Tool        |
-| Trinket     |
+| Description  |
+| ------------ |
+| Weapon       |
+| Armor        |
+| Tool         |
+| Ring         |
+| Amulet       |
+| Medal        |
+| Gem          |
+| Book         |
+| Potion       |
+| Food / Drink |
 ^item-type
 
 ###### Table 2-5 Location  Descriptor
@@ -236,15 +237,62 @@ You can create a complex quest structure by creating milestones for the quest,
 | Famous            |
 ^organization
 
+###### Table 2-6-1 Organization Type
+
+| Description        |
+| ------------------ |
+| `dice:[[Quest-Table#^guildtype]]\|nodice` Guild              |
+| Kingdom            |
+| Company            |
+| Cult               |
+| Mercenaries        |
+| Circus             |
+| Raiders            |
+| Order            |
+| Arcane Institution |
+|                    |
+^orgtype
+
+###### Table 2-6-2 Organization type, Guild 
+
+| Description    |
+| -------------- |
+| Thieves        |
+| Artisan        |
+| Assassin's     |
+| Bounty Hunting |
+| Trading        |
+| Crafting               |
+^guildtype
+
 ###### Table 2-7 Settlement 
 | Description |
 | ----------- |
-| Evil        |
-| Good        |
-| Medium      |
-| Large       |
-| Huge        |
+| Hamlet      |
+| Village     |
+| Town        |
+| City        |
+| Capital     |
+| Fort        |
+| Port        |
 ^settlement
+
+###### Table 2-7-1 Settlement descriptor 
+| Description |
+| ----------- |
+| Gloomy      |
+| Bustling    |
+| Dangerous   |
+| Vibrant     |
+| Hostile     |
+| Friendly    |
+| Militant    |
+| Religious   |
+| New         |
+| Old         |
+| Abandoned   |
+| Sleepy            |
+^settlementdescriptor
 
 You can pick and choose or if not sure which one, roll d12 and d6 to find out what the contract is 
 
